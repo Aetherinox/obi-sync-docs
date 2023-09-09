@@ -1,6 +1,21 @@
 # Reversed Obsidian Sync (Unofficial)
 This is an unofficial Obsidian Sync library which allows you to host your own server for [syncing](https://obsidian.md/sync) and [publishing](https://obsidian.md/publish) obsidian notes. Behind the scenes, it re-routes Sync and Publish tasks from the official Obsidian servers to your own self-hosted server.
 
+# Index
+
+- [Features](#Features)
+- [Installation](#Installation)
+  - Create DNS Records
+  - Install with Docker-compose
+  - Install with Docker
+  - Nginx Configuration
+- Creating New User
+  - Windows (Powershell)
+  - Linux (Terminal)
+- Build & Run
+
+<br />
+
 ---
 
 ## Features
@@ -19,7 +34,7 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
 ## Installation
 Follow the instructions below to set up Obsi-Sync with your [Obsidian.md](https://obsidian.md/) program.
 
-### DNS Records
+### Create DNS Records
 Access your Domain or Cloudflare control panel and create new records for two new subdomains.
 
 ![NNOxQSI](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2cf070f5-4ee5-4733-9e6e-db2770fb4599)
@@ -33,7 +48,7 @@ Access your Domain or Cloudflare control panel and create new records for two ne
 
 <br /><br /><br />
 
-### Docker-Compose (Method 1)
+### Docker-Compose (Option 1)
 To use `docker-compose` for Obsi-Sync, create a new `docker-compose.yml` with the following code inside:
 ```yml
 version: '3.8'
@@ -92,7 +107,7 @@ docker ps
 
 ---
 
-### Docker (Method 2)
+### Docker (Option 2)
 To install Obsi-Sync using the docker `pull` command, view the [Package Release](https://github.com/acheong08/obi-sync/pkgs/container/obi-sync) page and copy the command for the OS you are running.
 
 <br /><br /><br />
