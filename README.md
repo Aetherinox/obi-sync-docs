@@ -80,7 +80,7 @@ docker compose up -d
 ---
 
 ### Docker (Method 2)
-To install Obsi-Sync using the docker `pull` command, 
+To install Obsi-Sync using the docker `pull` command, view the [Package Release](https://github.com/acheong08/obi-sync/pkgs/container/obi-sync) page and copy the command for the OS you are running.
 
 <br /><br /><br />
 
