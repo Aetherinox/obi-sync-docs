@@ -94,7 +94,7 @@ Using the method with the `.env` environment variable file is slightly more secu
 <br /><br />
 
 ##### DOCKER-COMPOSE.YML ONLY
-To use `docker-compose` only for obi-sync, create a new `docker-compose.yml` with the following code inside:
+To use `docker-compose.yml` only for obi-sync, create a new `docker-compose.yml` with the following code inside:
 ```yml
 version: '3.8'
 
@@ -126,7 +126,7 @@ volumes:
 <br /><br />
 
 ##### DOCKER-COMPOSE.YML + .ENV
-To use `docker-compose` and an `.env` variable file for obi-sync; create the following two files in the same folder:
+To use `docker-compose.yml` and `.env` file option; create the following two files in the same folder:
 - `docker-compose.yml`
 - `.env`
 
