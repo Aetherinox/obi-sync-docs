@@ -303,7 +303,7 @@ To manually get the latest copy of the unofficial Obi-Sync Plugin, [download her
   - 📄 `main.js`
   - 📄 `manifest.json`
 
-<br /><br />
+<br />
 
 > [!NOTE]
 > Alternatively, you can use https://github.com/TfTHacker/obsidian42-brat which can be found in the official community plugins list.
