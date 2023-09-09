@@ -73,8 +73,8 @@ Access your Domain or Cloudflare control panel and create new records for two ne
 
 | Subdomain | Purpose |
 | --- | --- |
-| api.domain.com | Will be used for all API communication between your self-hosted solution and the Obsidian app. |
-| publish.domain.com | Handles Obsidian Publish documents that can be viewed online |
+| `api.domain.com` | Will be used for all API communication between your self-hosted solution and the Obsidian app. |
+| `publish.domain.com` | Handles Obsidian Publish documents that can be viewed online |
 
 
 
