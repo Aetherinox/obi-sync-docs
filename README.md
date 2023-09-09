@@ -130,7 +130,46 @@ docker ps
 ```
 ![jddB3lb](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2954845f-20ba-43da-8873-69d520b697d2)
 
+<br /><br />
 
+If you would like to use an `.ENV` file for variable storage, use the following two files and code:
+
+#### docker-compose.yml
+```yml
+
+version: '3.8'
+services:
+  obsidian_sync:
+    image: ghcr.io/acheong08/obi-sync:latest
+    container_name: obsidian_sync
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+      DOMAIN_NAME: ${DOMAIN}
+      ADDR_HTTP: ${ADDR_HTTP}
+      SIGNUP_KEY: ${USER_SIGNUP_KEY}
+      DATA_DIR: ${DIR_DATA}
+      MAX_STORAGE_GB: ${USER_MAX_STORAGE}
+      MAX_SITES_PER_USER: ${USER_MAX_SITES}
+    volumes:
+      - ./obi-sync:/obi-sync
+
+volumes:
+  obi-sync:
+```
+
+#### .env
+```env
+DOMAIN='api.domain.com'
+ADDR_HTTP='0.0.0.0:3000'
+DIR_DATA='/obi-sync/'
+USER_SIGNUP_KEY='YOUR_PRIVATE_STRING_HERE'
+USER_MAX_STORAGE=10
+USER_MAX_SITES=5
+```
+
+Once you add the new `docker-compose.yml` and `.env` file, restart your obsidian sync docker container.
 
 <br /><br /><br />
 
