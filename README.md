@@ -318,6 +318,9 @@ Ensure `Sync Status` is set to `running`. You can enable / disable the sync's st
 ![UkqH5w1](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/0c786122-3ac6-45e7-843a-2aa4cc8312da)
 
 You can confirm that your files are successfully syncing by clicking the `View` button to the right of `Sync Activity`.
+
+![iyeEBrs](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/bc1c591b-dc75-4ae2-a3f3-ac121ffe9643)
+
 Once pressing the `View` button, a new dialog will appear and show you the status of your Sync job.
 
 ```console
