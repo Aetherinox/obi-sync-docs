@@ -59,7 +59,7 @@ You will first need to configure the self-hosted server which will be responsibl
 <br /><br /><br />
 
 ## Server Installation
-Follow the instructions below to set up -Sync with your [Obsidian.md](https://obsidian.md/) program.
+Follow the instructions below to set up obsidian sync with your [Obsidian.md](https://obsidian.md/) program.
 
 ### Create DNS Records
 Access your Domain or Cloudflare control panel and create new records for two new subdomains.
