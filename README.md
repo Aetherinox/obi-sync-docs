@@ -234,7 +234,7 @@ A **failed** registration will return the following response:
 <br />
 
 > [!NOTE]
-> This requires yout to install the Go interrupter on your machine.
+> This requires you to install the Go interrupter on your machine.
 > You may download it [here](https://go.dev/doc/install).
 > 
 <br />
