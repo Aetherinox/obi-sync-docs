@@ -78,6 +78,16 @@ Access your Domain or Cloudflare control panel and create new records for two ne
 <br /><br /><br />
 
 ### Docker-Compose (Option 1)
+If using this option, you must decide which setup you would like to use. 
+<br /><br />
+You can either create a single `docker-compose.yml` file and keep all settings inside that one file, OR you can use the two file method which requires you to create a `docker-compose.yml` file, and an `.env` environment variable file.
+
+Using the method with the `.env` environment variable file is slightly more secure in regards to your `SIGNUP_KEY` being exposed to logs. 
+
+If you are not concerned about the security, you can use the `DOCKER-COMPOSE.YML ONLY` option below. If you do want the extra security, skip below to `DOCKER-COMPOSE.YML + .ENV`
+
+<br /><br />
+
 ##### DOCKER-COMPOSE.YML ONLY
 To use `docker-compose` only for obi-sync, create a new `docker-compose.yml` with the following code inside:
 ```yml
@@ -146,13 +156,6 @@ USER_SIGNUP_KEY='YOUR_PRIVATE_STRING_HERE'
 USER_MAX_STORAGE=10
 USER_MAX_SITES=5
 ```
-
-<br />
-
-> [!NOTE]
-> You can decide to either use a single file named `docker-compose.yml` which you will do all your editing in, or you can create two files: `docker-compose.yml` and `.env`.
->
-> Using the `.env` file for variable storage is slightly more secure in regards to your signup key showing up in logs. If you decide to use the two file method, you will edit the `.env` file when changing your settings. 
 
 <br />
 
