@@ -128,6 +128,8 @@ A **successful** registration will return the following response:
 {"email":"example@example.com","name":"Example User"}
 ```
 
+<br />
+
 A **failed** registration will return the following response:
 > [!WARNING]
 > If you receive a **failure** from registration, make sure you're not trying to sign up the same user multiple times.
