@@ -305,6 +305,11 @@ To manually get the latest copy of the unofficial Obi-Sync Plugin, [download her
 
 <br /><br />
 
+> [!NOTE]
+> Alternatively, you can use https://github.com/TfTHacker/obsidian42-brat which can be found in the official community plugins list.
+
+<br /><br />
+
 ### Enable Plugin
 Once the plugin is installed, activate it by launching Obsidian.md. 
 - Open `Obsidian Settings` ![uJ5MSWk](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/f5695ae4-0730-496c-b182-3bf4836ba571)
