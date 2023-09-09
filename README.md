@@ -659,7 +659,7 @@ You can also visit the [Package Release](https://github.com/acheong08/obi-sync/p
 
 ### Docker-compose.yml vs .Env File
 In the section above titled [Install with Docker-compose](#Docker-Compose-Option-1), there are two ways to install obi-sync using `docker-compose`.
-1. Single `docker-compose.yml` - See [DOCKER-COMPOSE.YML ONLY](#docker-composeyml-only)
+1. Single `docker-compose.yml` file - See [DOCKER-COMPOSE.YML ONLY](#docker-composeyml-only)
 2. `docker-compose.yml` and `.env` file - See [DOCKER-COMPOSE.YML + .ENV](#docker-composeyml--env)
 
 #### 🟢 Single `docker-compose.yml` File
