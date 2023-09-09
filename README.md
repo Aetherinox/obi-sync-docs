@@ -15,9 +15,9 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Install with Docker-compose](#Docker-Compose-Option-1)
   - [Install with Docker](#Docker-Option-2)
   - [Nginx Configuration](#Nginx-Configuration)
-- [Creating New User](#Creating-New-User)
-  - [Windows (Powershell)](#Windows-Powershell)
-  - [Linux (Terminal)](#Linux-Terminal)
+  - [Creating New User](#Creating-New-User)
+    - [Windows (Powershell)](#Windows-Powershell)
+    - [Linux (Terminal)](#Linux-Terminal)
 - [Plugin Installation](#Plugin-Installation)
   - [Install -> WGET](#install-with-wget)
   - [Install -> Manually](#install-manually)
@@ -207,7 +207,7 @@ Or restart nginx via docker if you run it through a container.
 
 <br /><br /><br />
 
-## Creating New User
+### Creating New User
 You must create a user that will be allowed to access your self-hosted server from within Obsidian.md.
 This can be done by opening Powershell in Windows, or Terminal in Linux and executing the following:
 
