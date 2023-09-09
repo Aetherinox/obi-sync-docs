@@ -29,14 +29,14 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
 - File history/recovery/snapshots
 - Works natively on IOS/Android/Linux/MacOS/Windows... (via the plugin)
 - Vault sharing
-- [Publish (markdown only. no rendering yet)](https://github.com/acheong08/obi-sync/wiki/Obsidian-Publish)
+- [Publish (markdown only. no rendering yet)](https://github.com/acheong08/obi-sync/wiki/dian-Publish)
 
 
 
 <br /><br /><br />
 
 ## Installation
-Follow the instructions below to set up Obsi-Sync with your [Obsidian.md](https://obsidian.md/) program.
+Follow the instructions below to set up -Sync with your [Obsidian.md](https://obsidian.md/) program.
 
 ### Create DNS Records
 Access your Domain or Cloudflare control panel and create new records for two new subdomains.
@@ -53,7 +53,7 @@ Access your Domain or Cloudflare control panel and create new records for two ne
 <br /><br /><br />
 
 ### Docker-Compose (Option 1)
-To use `docker-compose` for Obsi-Sync, create a new `docker-compose.yml` with the following code inside:
+To use `docker-compose` for Obi-Sync, create a new `docker-compose.yml` with the following code inside:
 ```yml
 version: '3.8'
 
@@ -68,20 +68,20 @@ services:
       - DOMAIN_NAME=api.domain.com
       - ADDR_HTTP=0.0.0.0:3000
       - SIGNUP_KEY=YOUR_PRIVATE_STRING_HERE
-      - DATA_DIR=/obsi-sync/
+      - DATA_DIR=/obi-sync/
       - MAX_STORAGE_GB=10
       - MAX_STORAGE_GB=5
     volumes:
-      - ./obsi-sync:/obsi-sync
+      - ./obi-sync:/obi-sync
 
 volumes:
-  obsi-sync:
+  obi-sync:
 ```
 
 | Variable | Description | Required | Default |
 | --- | --- | --- | --- | 
 | `DOMAIN_NAME` | This is the URL to your API subdomain | Yes | `localhost:3000` |
-| `ADDR_HTTP` | The address to run Obsi-Sync on | No | `127.0.0.1:3000` |
+| `ADDR_HTTP` | The address to run Obi-Sync on | No | `127.0.0.1:3000` |
 | `SIGNUP_KEY` | Required later when creating users who will be able to access your self-hosted server | No | None |
 | `DATA_DIR` | Where encrypted `vault.db` and other files will be stored | No | `./` |
 | `MAX_STORAGE_GB` | The maximum storage per user in GB. | No | `10` |
@@ -112,7 +112,7 @@ docker ps
 ---
 
 ### Docker (Option 2)
-To install Obsi-Sync using the docker `pull` command, view the [Package Release](https://github.com/acheong08/obi-sync/pkgs/container/obi-sync) page and copy the command for the OS you are running.
+To install Obi-Sync using the docker `pull` command, view the [Package Release](https://github.com/acheong08/obi-sync/pkgs/container/obi-sync) page and copy the command for the OS you are running.
 
 <br /><br /><br />
 
@@ -258,7 +258,7 @@ A **failed** registration will return the following response:
 > 
 <br />
 
-To build and run Obsi-sync directly from the git repo, execute the following:
+To build and run Obi-sync directly from the git repo, execute the following:
 - `git clone https://github.com/acheong08/obsidian-sync`
 - `cd obsidian-sync`
 - `go run cmd/obsidian-sync/main.go`
@@ -271,7 +271,7 @@ To build and run Obsi-sync directly from the git repo, execute the following:
 
 ### Where Are Files Stored?
 This depends on how you've configured obsid-sync to run. 
-If you installed this project using [Install with Docker-compose](#Docker-Compose-Option-1), and specified the environment variable `DATA_DIR`, then the files should exist in the same folder you specified the variable to use. By default, vault files are placed in the folder `obsi-sync`.
+If you installed this project using [Install with Docker-compose](#Docker-Compose-Option-1), and specified the environment variable `DATA_DIR`, then the files should exist in the same folder you specified the variable to use. By default, vault files are placed in the folder `obi-sync`.
 
 If you installed this project using [Install with Docker](#Docker-Option-2) or did not specify a variable for `DATA_DIR`, then the files are typically stored in `/var/lib/docker/*`
 
@@ -286,7 +286,7 @@ Some users may be running [Portainer](https://www.portainer.io/), which allows y
 ### What Files Are Created On Server?
 This project will store your vault data in the following files:
 ```
-📁 obsi-sync
+📁 obi-sync
    📄 publish.db
    📄 secret.gob
    📄 vault.db
