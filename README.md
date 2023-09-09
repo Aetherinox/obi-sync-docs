@@ -7,12 +7,12 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
 - [Installation](#Installation)
   - [Create DNS Records](#Create-DNS-Records)
   - [Install with Docker-compose](#Docker-Compose-Option-1)
-  - Install with Docker
-  - Nginx Configuration
-- Creating New User
-  - Windows (Powershell)
-  - Linux (Terminal)
-- Build & Run
+  - [Install with Docker](#Docker-Option-2)
+  - [Nginx Configuration](#Nginx-Configuration)
+- [Creating New User](#Creating-New-User)
+  - [Windows (Powershell)](#Windows-Powershell)
+  - [Linux (Terminal)](#Linux-Terminal)
+- [Build & Run](#Build-Run)
 
 <br />
 
