@@ -88,6 +88,13 @@ To install Obsi-Sync using the docker `pull` command,
 Once you have configured Docker + Nginx or your alternative solution, you must create a user that will be allowed to access your self-hosted server from within Obsidian.md.
 This can be done by opening Powershell in Windows, or Terminal in Linux and executing the following:
 
+<br />
+
+> [!NOTE]
+> If you decided to remove `signup_key` from your docker container and not require a signup key for registration, remove that line from the command below.
+
+<br />
+
 #### Windows `Powershell`
 ```powershell
 curl --request POST `
