@@ -87,10 +87,15 @@ To install Obsi-Sync using the docker `pull` command,
 ---
 
 ### Nginx Configuration
-You must configure nginx to handle your new subdomains by adding a few entries to your nginx config file.
+You must configure nginx to handle your new subdomains by adding a few entries to your nginx config file. If you wish to add this to your current running nginx webserver, you can paste it somewhere in `\etc\nginx\sites-enabled\default`.
 
 > [!NOTE]
 > Do not just copy/paste the server blocks below without looking them over. If you have changed port `3000` in your docker container, you must change it below to that same port.
+>
+> Once you add the blocks below, ensure you start `nginx` either through docker or with a command similar to
+> ```
+>sudo systemctl restart nginx
+> ```
 
 ```nginx
 map $http_upgrade $connection_upgrade {
