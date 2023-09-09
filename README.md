@@ -470,7 +470,7 @@ From this point, you can upload whatever files you wish to have published and pl
 <br />
 
 To build and run Obi-sync directly from the git repo, execute the following:
-- `git clone https://github.com/acheong08/obsidian-sync`
+- `git clone https://github.com/acheong08/obi-sync`
 - `cd obsidian-sync`
 - `go run cmd/obsidian-sync/main.go`
 
