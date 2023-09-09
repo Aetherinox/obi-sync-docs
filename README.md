@@ -123,6 +123,8 @@ curl --request POST \
 }'
 ```
 
+<br />
+
 A **successful** registration will return the following response:
 ```json
 {"email":"example@example.com","name":"Example User"}
