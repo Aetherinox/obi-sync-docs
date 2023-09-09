@@ -417,6 +417,8 @@ Open your Obsidian.md settings, and under `Options` on the left, select `Core Pl
 
 Back on the main Obsidian interface, select the `Publish Changes` ![Publish Changes Button](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e9cd7054-0a41-472f-accb-d9fa0426436d) button in your Obsidian side / toolbar.
 
+![iYTDAi4](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e7f24105-432b-4436-a8a1-71862c873640)
+
 In the new dialog, enter a `Site ID` in the textfield provided. This will become the `slug` name for your new vault.
 
 ![nofm4EB](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/4254380c-331e-4a80-8299-3204fb098cc2)
