@@ -202,7 +202,10 @@ Or restart nginx via docker if you run it through a container.
 <br /><br /><br />
 
 ## Plugin Installation
+In order for your new self-hosted Publish and Sync server to function properly, you must install a plugin to your copy of Obsidian.md
 
+### Download
+Obtain the latest copy of the unofficial Obi-Sync Plugin by [downloading here](https://github.com/acheong08/rev-obsidian-sync-plugin/releases).
 
 
 <br /><br /><br />
