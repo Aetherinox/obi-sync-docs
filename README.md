@@ -78,7 +78,8 @@ Access your Domain or Cloudflare control panel and create new records for two ne
 <br /><br /><br />
 
 ### Docker-Compose (Option 1)
-To use `docker-compose` for Obi-Sync, create a new `docker-compose.yml` with the following code inside:
+#### docker-compose only
+To use `docker-compose` only for obi-sync, create a new `docker-compose.yml` with the following code inside:
 ```yml
 version: '3.8'
 
@@ -102,37 +103,14 @@ services:
 volumes:
   obi-sync:
 ```
-
-| Variable | Description | Required | Default |
-| --- | --- | --- | --- | 
-| `DOMAIN_NAME` | This is the URL to your API subdomain | Yes | `localhost:3000` |
-| `ADDR_HTTP` | The address to run Obi-Sync on | No | `127.0.0.1:3000` |
-| `SIGNUP_KEY` | Required later when creating users who will be able to access your self-hosted server | No | None |
-| `DATA_DIR` | Where encrypted `vault.db` and other files will be stored | No | `./` |
-| `MAX_STORAGE_GB` | The maximum storage per user in GB. | No | `10` |
-| `MAX_SITES_PER_USER` | The maximum number of sites per user. | No | `5` |
-
-<br />
-
-After creating the above `docker-compose.yml` file, `cd` to the folder where this new file is and execute the following:
-```shell
-docker compose up -d
-```
-
-To shut down the container:
-```shell
-docker compose down
-```
-
-To confirm it is running:
-```shell
-docker ps
-```
-![jddB3lb](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2954845f-20ba-43da-8873-69d520b697d2)
-
 <br /><br />
 
-If you would like to use an `.ENV` file for variable storage, use the following two files and code:
+#### docker-compose + .env
+To use `docker-compose` and an `.env` variable file for obi-sync; create the following two files in the same folder:
+- `docker-compose.yml`
+- `.env`
+
+Inside each file, paste the following:
 
 #### docker-compose.yml
 ```yml
@@ -168,8 +146,38 @@ USER_SIGNUP_KEY='YOUR_PRIVATE_STRING_HERE'
 USER_MAX_STORAGE=10
 USER_MAX_SITES=5
 ```
+<br />
 
-Once you add the new `docker-compose.yml` and `.env` file, restart your obsidian sync docker container.
+A description of each variable is provided below:
+
+<br />
+
+| Variable | Description | Required | Default |
+| --- | --- | --- | --- | 
+| `DOMAIN_NAME` | This is the URL to your API subdomain | Yes | `localhost:3000` |
+| `ADDR_HTTP` | The address to run Obi-Sync on | No | `127.0.0.1:3000` |
+| `SIGNUP_KEY` | Required later when creating users who will be able to access your self-hosted server | No | None |
+| `DATA_DIR` | Where encrypted `vault.db` and other files will be stored | No | `./` |
+| `MAX_STORAGE_GB` | The maximum storage per user in GB. | No | `10` |
+| `MAX_SITES_PER_USER` | The maximum number of sites per user. | No | `5` |
+
+<br />
+
+After creating the above `docker-compose.yml` and `.env` file, `cd` to the folder with these files and execute:
+```shell
+docker compose up -d
+```
+
+To shut down the container:
+```shell
+docker compose down
+```
+
+To confirm it is running:
+```shell
+docker ps
+```
+![jddB3lb](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2954845f-20ba-43da-8873-69d520b697d2)
 
 <br /><br /><br />
 
