@@ -254,6 +254,63 @@ Once the plugin is installed, activate it by launching Obsidian.md.
 <br /><br />
 
 ### Configure Sync
+Before doing these steps, ensure that your obi-sync self-hosted server is running.
+Open your Obsidian.md Settings ![uJ5MSWk](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/f5695ae4-0730-496c-b182-3bf4836ba571) and on the left side, select `About`.
+
+You need to sign-in to your self-hosted server by clicking `Log In`:
+
+![fs9PioG](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/941f8b5a-485f-4f6b-bdd0-ad0e6ab092a5)
+
+The login dialog will appear:
+
+![aVD8YRs](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/5d065b57-708c-4bbe-8373-8d11354b09f5)
+
+Fill in your email address and password that you used to register your account with the `cURL` command earlier in the docker steps.
+
+```powershell
+curl --request POST `
+  --url https://api.domain.com/user/signup `
+  --header 'Content-Type: application/json' `
+  --data '{
+	"email": "example@example.com",      <----- The email you will use
+	"password": "example_password",	     <----- The password you will use
+	"name": "Example User",
+	"signup_key": "<SIGNUP_KEY>"
+}'
+```
+
+<br />
+
+> [!NOTE]
+> After signing in successfully, the `Log In` button will change to `Manage settings`. Keep in mind though that clicking the `Manage Settings` button will take you to Obsidian's official website. It has nothing to do with your own self-hosted server.
+
+<br />
+
+Next, on the left side under `Core Plugins`, select `Sync`. 
+On the right side, click the `Choose` button to the right of `Remote Vault`
+
+![eV6KKFy](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/4a58bc85-2fb1-4bf6-882e-596a681f9385)
+
+A new dialog will then appear. Select `Create New Vault`
+
+![97sJzUP](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/dca34861-a62d-4714-819e-acc71b579671)
+
+Then fill in the information for your new vault. The `Encryption Password` can be anything you want. Do **not** lose this password. You cannot unlock / decrypt your vault if you can't remember it.
+
+![tj19O8m](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e204489c-5a03-46bd-b5ba-94402280477e)
+
+Your new vault will be created, along with a few options you can select, and a `Connect` button.
+
+![RDFF70c](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/c264782c-6f92-4f7c-97b5-bfb0b0c857cd)
+
+Click the `Connect` button to start Syncing between your local vault and your self-hosted sync server. If you get a warning message labeled `Confirm Merge Vault`, click `Continue`.
+
+If you provided an `Encryption Password` a few steps back, you will now be asked to enter that password, and then click `Unlock Vault`.
+
+You will then get one more confirmation that your vault is now synced.
+
+![6znaxbj](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2dbe1e86-3b91-4cb4-a5da-fc354d13e40d)
+
 
 
 <br /><br /><br />
