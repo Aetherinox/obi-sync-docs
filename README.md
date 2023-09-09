@@ -40,6 +40,8 @@ You will first need to configure the self-hosted server which will be responsibl
   - [What Files Are Created On Server?](#what-files-are-created-on-server)
   - [Error: User Not Signed Up](#error-user-not-signed-up)
   - [Network Error Occured. Network Unavailable](#network-error-occured-network-unavailable)
+  - [Error: No Matching Manifest linux/amd64](#error-no-matching-manifest-linux-amd64)
+
 <br />
 
 
@@ -553,3 +555,14 @@ You can also attempt to locate the root cause of the issue by pressing `CTRL + S
 ![266769187-37688550-ae87-4b75-87e1-c3024fe0fef6](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/8f462c26-503b-4cc5-a2f5-3272ee7c2ff6)
 
 Anything listed in `red` is an error and needs to be corrected. Ensure that it is trying to fetch the correct domain from the `Request URL`. Anything listed in `white` and with a `Status Code` of `200` is properly connecting.
+
+<br /><br />
+
+---
+
+<br /><br />
+
+### Error: No Matching Manifest linux/amd64
+Make sure you are pulling the correct docker image.
+
+You can also visit the [Package Release](https://github.com/acheong08/obi-sync/pkgs/container/obi-sync) page, select `OS / Arch` tab, and copy the pull command listed below `linux/amd64`
