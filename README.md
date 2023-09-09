@@ -146,6 +146,14 @@ USER_SIGNUP_KEY='YOUR_PRIVATE_STRING_HERE'
 USER_MAX_STORAGE=10
 USER_MAX_SITES=5
 ```
+
+<br />
+
+> [!NOTE]
+> You can decide to either use a single file named `docker-compose.yml` which you will do all your editing in, or you can create two files: `docker-compose.yml` and `.env`.
+>
+> If you decide to use the two file method, you will edit the `.env` file when changing your settings. 
+
 <br />
 
 A description of each variable is provided below:
