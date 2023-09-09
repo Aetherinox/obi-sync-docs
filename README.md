@@ -42,7 +42,7 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Network Error Occured. Network Unavailable](#network-error-occured-network-unavailable)
   - [Error: No Matching Manifest linux/amd64](#error-no-matching-manifest-linuxamd64)
   - [Docker-compose.yml vs .Env File](#docker-composeyml-vs-env-file)
-  - [Plugin: Can't Find .obsidian Folder](#plugin-cant-find-obsidian-folder)
+  - [Can't Find .obsidian Folder or .Env File](#plugin-cant-find-obsidian-folder)
   - [Privacy & Security](#privacy--security)
 
 <br />
