@@ -94,12 +94,6 @@ You must configure nginx to handle your new subdomains by adding a few entries t
 
 > [!NOTE]
 > Do not copy/paste the server blocks below without looking them over. If you have changed port `3000` in your docker container, you must change it below to that same port. Also change `domain.com` to your correct domain.
->
-> After modifying your nginx service, **restart** it to load up the new configs.
-> ```
->sudo systemctl restart nginx
-> ```
-> Or restart nginx via docker if you run it through a container.
 
 <br />
 <br />
@@ -153,7 +147,13 @@ map $http_upgrade $connection_upgrade {
         }
     }
 ```
+<br />
 
+After modifying your nginx service, **restart** it to load up the new configs.
+```shell
+sudo systemctl restart nginx
+```
+Or restart nginx via docker if you run it through a container.
 
 <br /><br /><br />
 
