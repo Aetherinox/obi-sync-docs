@@ -17,6 +17,7 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
   - [Where Are Files Stored](#Where-Are-Files-Stored)
   - [What Files Are Created On Server?](#what-files-are-created-on-server)
   - [Error: User Not Signed Up](#error-user-not-signed-up)
+  - [Network Error Occured. Network Unavailable](#network-error-occured-network-unavailable)
 <br />
 
 ---
@@ -298,3 +299,25 @@ This error typically occurs when you're creating a user with `cURL` and shows th
 <br />
 
 If you receive this error when creating your first API user, ensure the user did not previously exist. 
+
+<br /><br />
+
+### Network Error Occured. Network Unavailable
+If you are attempting to use the `Obsidian Publish` feature and receive the error:
+
+![nJ66in6](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/6094db18-a523-40d2-891c-f59d2e868556)
+
+Ensure you have provided the correct environment variable `DOMAIN_NAME=api.domain.com`.
+If you provided the wrong domain name and need to change it, you must do the following:
+- Edit `docker-compose.yml`
+- Change `DOMAIN_NAME` variable to correct domain.
+- Locate the project file `publish.db` and DELETE it completely.
+- Restart the docker container and Obsidian.md program
+
+Once back in Obsidian.md program, attempt to click `Publish Changes` ![Publish Changes Button](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e9cd7054-0a41-472f-accb-d9fa0426436d) button again.
+
+You can also attempt to locate the root cause of the issue by pressing `CTRL + SHIFT + I` inside of Obsidian.md. Then on the right side, click `Network` and then re-open the `Publish Changes` interface again.
+
+![266769187-37688550-ae87-4b75-87e1-c3024fe0fef6](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/8f462c26-503b-4cc5-a2f5-3272ee7c2ff6)
+
+Anything listed in `red` is an error and needs to be corrected. Ensure that it is trying to fetch the correct domain from the `Request URL`. Anything listed in `white` and with a `Status Code` of `200` is properly connecting.
