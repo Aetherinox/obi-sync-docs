@@ -13,6 +13,7 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
   - [Windows (Powershell)](#Windows-Powershell)
   - [Linux (Terminal)](#Linux-Terminal)
 - [Build & Run](#Build--Run)
+- [Troubleshooting](#Troubleshooting)
 
 <br />
 
@@ -258,3 +259,28 @@ To build and run Obsi-sync directly from the git repo, execute the following:
 - `git clone https://github.com/acheong08/obsidian-sync`
 - `cd obsidian-sync`
 - `go run cmd/obsidian-sync/main.go`
+
+<br /><br /><br />
+
+---
+
+## Troubleshooting
+
+### Where Are Files Stored?
+This depends on how you've configured obsid-sync to run. 
+If you installed this project using [Install with Docker-compose](#Docker-Compose-Option-1), and specified the environment variable `DATA_DIR`, then the files should exist in the same folder you specified the variable to use.
+
+If you installed this project using [Install with Docker](#Docker-Option-2) or did not specify a variable for `DATA_DIR`, then the files are typically stored in `/var/lib/docker/*`
+
+Some users may be running [Portainer](https://www.portainer.io/), which allows you to view your docker containers and volumes within a graphical user interface. Login to the portainer web admin panel and under `Volumes`, find out which volume is assigned to `obsidian_sync`, and copy the value `Mount path`. Open your File Explorer and go to that location to view your vault files.
+
+<br /><br />
+
+### Error: User Not Signed Up
+This error typically occurs when you're creating a user with `cURL` and shows the following:
+```json
+{"error":"not sign up!"}
+```
+<br />
+
+If you receive this error when creating your first API user, ensure the user did not previously exist. 
