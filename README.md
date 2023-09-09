@@ -245,6 +245,11 @@ Once the plugin is installed, activate it by launching Obsidian.md.
 - Go to the `Core Plugins` section of Obsidian
 - Locate the core plugin `Sync` and enable ![f8iiGTI](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e38ac70d-60ea-4cf7-939a-ab56d5302f11)
 
+![LWWtF7E](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/7f8c1dd3-6150-4798-b724-a367bf0e2413)
+
+
+![ioHy4jQ](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/61d154df-430d-4785-983c-633418607d12)
+
 
 
 <br /><br /><br />
