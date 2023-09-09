@@ -23,6 +23,7 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Install -> Manually](#install-manually)
   - [Enable Plugin](#Enable-Plugin)
   - [Configure Sync](#Configure-Sync)
+  - [Configure Publish](#Configure-Publish)
 - [Build & Run](#Build--Run)
 - [Troubleshooting](#Troubleshooting)
   - [Where Are Files Stored](#Where-Are-Files-Stored)
@@ -387,6 +388,13 @@ Once pressing the `View` button, a new dialog will appear and show you the statu
 2023-09-09 01:38 - Upload complete Test Folder/Subfolder/My File 2.md
 2023-09-09 01:40 - Fully synced
 ```
+
+<br /><br />
+
+### Configure Publish
+These instructions help guide you through setting up `Obsidian Publish`. This feature will allow you to view your Vault .md notes on your webserver.
+
+
 
 
 <br /><br /><br />
