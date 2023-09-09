@@ -7,6 +7,16 @@ This self-hosted system consists of two parts:
 
 You will first need to configure the self-hosted server which will be responsible for storing all of your Obsidian.md vault plugins and files. Then you will need to install the associated plugin in your Obsidian.md software which will be responsible for telling Obsidian to use your servers instead of the official Obsidian servers.
 
+<br /><br />
+
+> [!WARNING]
+> The main branch is the development branch. For stable usage, use the latest release.
+
+> [!NOTE]
+> If you have the time and energy, feel free to help out with PRs or suggestions.
+
+<br /><br />
+
 # Index
 
 - [Features](#Features)
