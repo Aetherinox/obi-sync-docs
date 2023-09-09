@@ -690,4 +690,4 @@ The `.obsidian` plugin folder may be hidden. You can configure your operating sy
 <br /><br />
 
 ### Privacy & Security
-The plugin is dead simple. No data is collected. You can even run your sync server on the local network without access to the internet.
+The plugin and self-hosted server are dead simple. No data is collected. You can even run your sync server on the local network without access to the internet. All vault data is stored behind an encrypted password and inside a database file.
