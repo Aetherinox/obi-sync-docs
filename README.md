@@ -683,6 +683,8 @@ If using `Portainer` web manager for Docker, you can access the environment vari
 ### Plugin: Can't Find `.obsidian` Folder
 The `.obsidian` plugin folder may be hidden. You can configure your operating system's File Explorer show hidden files or use a terminal. For IOS, you might need to plug it into a computer, go to `Documents on iPhone`, then go to `Obsidian/<your vault name>/.obsidian`.
 
+If you are using Linux and cannot locate the `.obsidian` folder or `.env` docker file, Linux by default hides all folders and files that start with a period. To view these files in your File Explorer, press the key combination `CTRL + H`. You may be asked for your account or sudo password.
+
 <br /><br />
 
 ---
