@@ -667,3 +667,8 @@ This method involves creating a single `docker-compose.yml` file which will hold
 This method requires you to create two files which both exist in the same folder. The benefit of this method is that your `SIGNUP_KEY` environment variable will not be leaked in your docker logs and is slightly better if you are worried about security.
 
 You can decide to use either one of the two options.
+
+If using `Portainer` web manager for Docker, you can access the environment variables clicking `Containers` on left side menu, then click `obsidian-sync` in your list of containers. Then scroll down to the `ENV` section.
+
+![PZkqLFM](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/50ed9c37-d17c-4b1a-a67a-8f2d404484e1)
+
