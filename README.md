@@ -1,7 +1,7 @@
 # Reversed Obsidian Sync (Unofficial)
 This is an unofficial Obsidian Sync library which allows you to host your own server for [syncing](https://obsidian.md/sync) and [publishing](https://obsidian.md/publish) obsidian notes. Behind the scenes, it re-routes Sync and Publish tasks from the official Obsidian servers to your own self-hosted server.
 
-This self-hosted system consists of two parts:
+This system consists of two parts:
 1. Self-hosted Server | [Repo](https://github.com/acheong08/obi-sync)
 2. Obsidian Plugin | [Repo](https://github.com/acheong08/rev-obsidian-sync-plugin)
 
