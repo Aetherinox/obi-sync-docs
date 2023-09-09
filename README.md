@@ -40,7 +40,7 @@ You will first need to configure the self-hosted server which will be responsibl
   - [What Files Are Created On Server?](#what-files-are-created-on-server)
   - [Error: User Not Signed Up](#error-user-not-signed-up)
   - [Network Error Occured. Network Unavailable](#network-error-occured-network-unavailable)
-  - [Error: No Matching Manifest linux/amd64](#error-no-matching-manifest-linux-amd64)
+  - [Error: No Matching Manifest linux/amd64](#error-no-matching-manifest-linuxamd64)
 
 <br />
 
