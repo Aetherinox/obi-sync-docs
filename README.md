@@ -12,6 +12,7 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
 - [Creating New User](#Creating-New-User)
   - [Windows (Powershell)](#Windows-Powershell)
   - [Linux (Terminal)](#Linux-Terminal)
+- [Configuring Plugin](#Configuring-Plugin)
 - [Build & Run](#Build--Run)
 - [Troubleshooting](#Troubleshooting)
   - [Where Are Files Stored](#Where-Are-Files-Stored)
@@ -248,6 +249,12 @@ A **failed** registration will return the following response:
 ```json
 {"error":"not sign up!"}
 ```
+
+<br /><br /><br />
+
+---
+
+## Configuring Plugin
 
 <br /><br /><br />
 
