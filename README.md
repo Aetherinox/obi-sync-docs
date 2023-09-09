@@ -78,7 +78,7 @@ Access your Domain or Cloudflare control panel and create new records for two ne
 <br /><br /><br />
 
 ### Docker-Compose (Option 1)
-#### docker-compose only
+##### DOCKER-COMPOSE.YML ONLY
 To use `docker-compose` only for obi-sync, create a new `docker-compose.yml` with the following code inside:
 ```yml
 version: '3.8'
@@ -105,7 +105,7 @@ volumes:
 ```
 <br /><br />
 
-#### docker-compose + .env
+##### DOCKER-COMPOSE.YML + .ENV
 To use `docker-compose` and an `.env` variable file for obi-sync; create the following two files in the same folder:
 - `docker-compose.yml`
 - `.env`
