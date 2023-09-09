@@ -84,7 +84,8 @@ You can either create a single `docker-compose.yml` file and keep all settings i
 
 Using the method with the `.env` environment variable file is slightly more secure in regards to your `SIGNUP_KEY` being exposed to logs. 
 
-If you are not concerned about the security, you can use the `DOCKER-COMPOSE.YML ONLY` option below. If you do want the extra security, skip below to `DOCKER-COMPOSE.YML + .ENV`
+- If you are not concerned about the security, you can use the `DOCKER-COMPOSE.YML ONLY` option below.
+- If you do want the extra security, skip below to `DOCKER-COMPOSE.YML + .ENV`
 
 <br /><br />
 
