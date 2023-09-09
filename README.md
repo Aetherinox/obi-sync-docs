@@ -40,7 +40,7 @@ version: '3.8'
 
 services:
   obsidian_sync:
-    image: ghcr.io/acheong08/obi-sync:v0.1.4
+    image: ghcr.io/acheong08/obi-sync:latest
     container_name: obsidian_sync
     restart: always
     ports:
