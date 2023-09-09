@@ -175,7 +175,7 @@ A description of each variable is provided below:
 
 <br />
 
-After creating the above `docker-compose.yml` and `.env` file, `cd` to the folder with these files and execute:
+After creating the file(s) above depending on your selection, you need to `cd` to the folder where you created the file(s) and execute:
 ```shell
 docker compose up -d
 ```
