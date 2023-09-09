@@ -12,7 +12,7 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
 - [Creating New User](#Creating-New-User)
   - [Windows (Powershell)](#Windows-Powershell)
   - [Linux (Terminal)](#Linux-Terminal)
-- [Build & Run](#Build-Run)
+- [Build & Run](#Build--Run)
 
 <br />
 
