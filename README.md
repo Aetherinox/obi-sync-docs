@@ -443,6 +443,7 @@ curl --request POST `
 <br />
 
 Next, on the left side under `Core Plugins`, select `Sync`. 
+
 On the right side, click the `Choose` button to the right of `Remote Vault`
 
 ![eV6KKFy](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/4a58bc85-2fb1-4bf6-882e-596a681f9385)
