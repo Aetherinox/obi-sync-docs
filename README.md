@@ -92,6 +92,7 @@ This can be done by opening Powershell in Windows, or Terminal in Linux and exec
 
 > [!NOTE]
 > `signup_key`: If you decided to remove `signup_key` from your docker container and not require a signup key for registration, remove that line from the command below.
+> 
 > `example_password`: Pick any password you wish to use. This is the password you will provide in Obsidian.md once you configure the plugin to connect to your self-hosted server.
 
 <br />
