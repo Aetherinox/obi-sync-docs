@@ -137,7 +137,10 @@ map $http_upgrade $connection_upgrade {
 }
 
 #
-#   Obsidian API
+#   Obsidian Sync
+#
+#   defined within the obi-sync plugin for Obsidian so that Obsidian and
+#   the self-hosted server can sync files.
 #
 
     server
@@ -162,6 +165,8 @@ map $http_upgrade $connection_upgrade {
 
 #
 #   Obsidian Publish
+#
+#   used for viewing published Obsidian .md files on a webserver.
 #
 
     server
