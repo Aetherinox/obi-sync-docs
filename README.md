@@ -207,6 +207,8 @@ Or restart nginx via docker if you run it through a container.
 
 <br /><br /><br />
 
+---
+
 ### Creating New User
 You must create a user that will be allowed to access your self-hosted server from within Obsidian.md.
 This can be done by opening Powershell in Windows, or Terminal in Linux and executing the following:
