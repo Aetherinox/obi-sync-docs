@@ -14,8 +14,9 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
   - [Linux (Terminal)](#Linux-Terminal)
 - [Build & Run](#Build--Run)
 - [Troubleshooting](#Troubleshooting)
-  - [Where Are Files Stored](#Where-Are-Files-Stored?)
-
+  - [Where Are Files Stored](#Where-Are-Files-Stored)
+  - [What Files Are Created On Server?](#what-files-are-created-on-server)
+  - [Error: User Not Signed Up](#error-user-not-signed-up)
 <br />
 
 ---
