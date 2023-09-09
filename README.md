@@ -93,7 +93,7 @@ services:
       - SIGNUP_KEY=YOUR_PRIVATE_STRING_HERE
       - DATA_DIR=/obi-sync/
       - MAX_STORAGE_GB=10
-      - MAX_STORAGE_GB=5
+      - MAX_SITES_PER_USER=5
     volumes:
       - ./obi-sync:/obi-sync
 
