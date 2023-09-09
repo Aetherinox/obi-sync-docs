@@ -517,14 +517,22 @@ Yet another dialog will appear which confirms your uploaded vault documents.
 
 ![sTxX4Ax](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/1a2501d8-338d-455e-8829-0ef2b9439494)
 
-Because we are hosting our own server, the link provided at the bottom of the dialog **will not work** since it goes to Obsidian's official publish server.
+<br />
 
-Open your web browser and go to the URL for your self-hosted publish server. In my example files I uploaded, my link would be
+> [!NOTE]
+> Because we are hosting our own server, the link provided at the bottom of the dialog **will not work** since it goes to Obsidian's official publish server.
+
+<br />
+
+Open your web browser and go to the URL for your self-hosted publish server. In our example, we would view our `Testing Folder/Tags.md` page by entering the following URL:
 
 ```
 https://publish.domain.com/myvault/Testing%20Folder/Tags.md
 ```
-`myvault` is the name I gave the vault from the examples provided above, and the remaining part of the link is exactly how the .md file would be if I were browsing it on my local computer.
+
+`myvault` is the name I gave the vault from the examples provided above.
+`Testing Folder` is the name of the folder the note resided in.
+`Tags.md` is our note name.
 
 If you want to see an overview of the files you have uploaded to your publish server, you can simply go to the publish subdomain, add your vault name at the end, and nothing else.
 
@@ -550,7 +558,7 @@ From this point, you can upload whatever files you wish to have published and pl
 > [!NOTE]
 > This requires you to install the Go interrupter on your machine.
 > You may download it [here](https://go.dev/doc/install).
-> 
+
 <br />
 
 To build and run Obi-sync directly from the git repo, execute the following:
