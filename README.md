@@ -42,6 +42,8 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Network Error Occured. Network Unavailable](#network-error-occured-network-unavailable)
   - [Error: No Matching Manifest linux/amd64](#error-no-matching-manifest-linuxamd64)
   - [Docker-compose.yml vs .Env File](#docker-composeyml-vs-env-file)
+  - [Plugin: Can't Find .obsidian Folder](#plugin-cant-find-obsidian-folder)
+  - [Privacy & Security](#privacy-security)
 
 <br />
 
@@ -672,3 +674,20 @@ If using `Portainer` web manager for Docker, you can access the environment vari
 
 ![PZkqLFM](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/50ed9c37-d17c-4b1a-a67a-8f2d404484e1)
 
+<br /><br />
+
+---
+
+<br /><br />
+
+### Plugin: Can't Find `.obsidian` Folder
+The `.obsidian` plugin folder may be hidden. You can configure your operating system's File Explorer show hidden files or use a terminal. For IOS, you might need to plug it into a computer, go to `Documents on iPhone`, then go to `Obsidian/<your vault name>/.obsidian`.
+
+<br /><br />
+
+---
+
+<br /><br />
+
+### Privacy & Security
+The plugin is dead simple. No data is collected. You can even run your sync server on the local network without access to the internet.
