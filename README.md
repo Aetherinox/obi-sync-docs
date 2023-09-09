@@ -16,6 +16,8 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Install with Docker](#Docker-Option-2)
   - [Nginx Configuration](#Nginx-Configuration)
 - [Plugin Installation](#Plugin-Installation)
+  - [Install -> WGET](#install-with-wget)
+  - [Install -> Manually](#install-manually)
 - [Creating New User](#Creating-New-User)
   - [Windows (Powershell)](#Windows-Powershell)
   - [Linux (Terminal)](#Linux-Terminal)
@@ -26,6 +28,7 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Error: User Not Signed Up](#error-user-not-signed-up)
   - [Network Error Occured. Network Unavailable](#network-error-occured-network-unavailable)
 <br />
+
 
 ---
 
@@ -204,9 +207,29 @@ Or restart nginx via docker if you run it through a container.
 ## Plugin Installation
 In order for your new self-hosted Publish and Sync server to function properly, you must install a plugin to your copy of Obsidian.md
 
-### Download
-Obtain the latest copy of the unofficial Obi-Sync Plugin by [downloading here](https://github.com/acheong08/rev-obsidian-sync-plugin/releases).
+### Install with WGET
+First create a new folder for the plugin and enter that folder:
 
+```shell
+cd /path/to/vault/.obsidian
+mkdir -p plugins/custom-sync-plugin && cd plugins/custom-sync-plugin
+```
+
+Then use `wget` to download the plugin files:
+
+```shell
+wget https://github.com/acheong08/rev-obsidian-sync-plugin/raw/master/main.js https://github.com/acheong08/rev-obsidian-sync-plugin/raw/master/manifest.json
+```
+
+<br /><br />
+
+### Install Manually
+If you wish to manually download the latest copy of the unofficial Obi-Sync Plugin, [download here](https://github.com/acheong08/rev-obsidian-sync-plugin/releases).
+- Navigate to the folder where your vault is stored on your local machine, and enter the `.obsidian\plugins\` folder.
+- Create a new folder called `custom-sync-plugin`
+- Inside the `custom-sync-plugin` folder, install the plugin files:
+  - main.js
+  - manifest.json
 
 <br /><br /><br />
 
