@@ -527,7 +527,7 @@ Yet another dialog will appear which confirms your uploaded vault documents.
 Open your web browser and go to the URL for your self-hosted publish server. In our example, we would view our `Testing Folder/Tags.md` page by entering the following URL:
 
 ```
-https://publish.domain.com/myvault/Testing%20Folder/Tags.md
+https://publish.domain.com/myvault/Testing Folder/Tags.md
 ```
 
 - `myvault`: Name given to example vault
