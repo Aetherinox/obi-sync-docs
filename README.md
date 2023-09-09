@@ -89,6 +89,10 @@ Using the method with the `.env` environment variable file is slightly more secu
 
 <br /><br />
 
+---
+
+<br /><br />
+
 ##### DOCKER-COMPOSE.YML ONLY
 To use `docker-compose` only for obi-sync, create a new `docker-compose.yml` with the following code inside:
 ```yml
@@ -114,6 +118,11 @@ services:
 volumes:
   obi-sync:
 ```
+
+<br /><br />
+
+---
+
 <br /><br />
 
 ##### DOCKER-COMPOSE.YML + .ENV
@@ -158,7 +167,11 @@ USER_MAX_STORAGE=10
 USER_MAX_SITES=5
 ```
 
-<br />
+<br /><br />
+
+---
+
+<br /><br />
 
 A description of each variable is provided below:
 
