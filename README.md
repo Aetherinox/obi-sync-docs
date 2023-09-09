@@ -152,7 +152,7 @@ USER_MAX_SITES=5
 > [!NOTE]
 > You can decide to either use a single file named `docker-compose.yml` which you will do all your editing in, or you can create two files: `docker-compose.yml` and `.env`.
 >
-> If you decide to use the two file method, you will edit the `.env` file when changing your settings. 
+> Using the `.env` file for variable storage is slightly more secure in regards to your signup key showing up in logs. If you decide to use the two file method, you will edit the `.env` file when changing your settings. 
 
 <br />
 
