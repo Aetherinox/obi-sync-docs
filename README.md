@@ -84,6 +84,64 @@ To install Obsi-Sync using the docker `pull` command,
 
 <br /><br /><br />
 
+---
+
+### Nginx Configuration
+You must configure nginx to handle your new subdomains by adding a few entries to your nginx config file.
+
+```nginx
+map $http_upgrade $connection_upgrade {
+        default upgrade;
+        '' close;
+}
+
+#
+#   Obsidian API
+#
+
+    server
+    {
+        listen 443 ssl http2;
+        listen [::]:443 ssl http2;
+        listen 80;
+        listen [::]:80;
+
+        server_name         www.api.domain.com api.domain.com;
+
+        location /
+        {
+            proxy_http_version  1.1;
+            proxy_set_header    Upgrade $http_upgrade;
+            proxy_set_header    Connection $connection_upgrade;
+            proxy_set_header    Host $host;
+            proxy_pass          http://127.0.0.1:3000/;
+        }
+        
+    }
+
+#
+#   Obsidian Publish
+#
+
+    server
+    {
+        listen 443 ssl http2;
+        listen [::]:443 ssl http2;
+        listen 80;
+        listen [::]:80;
+
+        server_name         www.publish.domain.com publish.domain.com;
+        
+        location /
+        {
+            proxy_pass              http://127.0.0.1:3000/published/;
+        }
+    }
+```
+
+
+<br /><br /><br />
+
 ## Creating New User
 Once you have configured Docker + Nginx or your alternative solution, you must create a user that will be allowed to access your self-hosted server from within Obsidian.md.
 This can be done by opening Powershell in Windows, or Terminal in Linux and executing the following:
