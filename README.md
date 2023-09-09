@@ -10,7 +10,7 @@ You will first need to configure the self-hosted server which will be responsibl
 # Index
 
 - [Features](#Features)
-- [Installation](#Installation)
+- [Server Installation](#Server-Installation)
   - [Create DNS Records](#Create-DNS-Records)
   - [Install with Docker-compose](#Docker-Compose-Option-1)
   - [Install with Docker](#Docker-Option-2)
@@ -18,7 +18,7 @@ You will first need to configure the self-hosted server which will be responsibl
 - [Creating New User](#Creating-New-User)
   - [Windows (Powershell)](#Windows-Powershell)
   - [Linux (Terminal)](#Linux-Terminal)
-- [Configuring Plugin](#Configuring-Plugin)
+- [Plugin Installation](#Plugin-Installation)
 - [Build & Run](#Build--Run)
 - [Troubleshooting](#Troubleshooting)
   - [Where Are Files Stored](#Where-Are-Files-Stored)
@@ -42,7 +42,7 @@ You will first need to configure the self-hosted server which will be responsibl
 
 <br /><br /><br />
 
-## Installation
+## Server Installation
 Follow the instructions below to set up -Sync with your [Obsidian.md](https://obsidian.md/) program.
 
 ### Create DNS Records
@@ -260,7 +260,7 @@ A **failed** registration will return the following response:
 
 ---
 
-## Configuring Plugin
+## Plugin Installation
 
 <br /><br /><br />
 
