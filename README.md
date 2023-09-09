@@ -322,7 +322,7 @@ The login dialog will appear:
 
 ![aVD8YRs](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/5d065b57-708c-4bbe-8373-8d11354b09f5)
 
-Fill in your email address and password that you used to register your account with the `cURL` command earlier in the docker steps.
+Fill in your email address and password that you used to register your account with the `cURL` command in the section [Creating New User](#Creating-New-User) above.
 
 ```powershell
 curl --request POST `
