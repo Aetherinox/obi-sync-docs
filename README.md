@@ -19,6 +19,7 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Install -> WGET](#install-with-wget)
   - [Install -> Manually](#install-manually)
   - [Enable Plugin](#Enable-Plugin)
+  - [Configure Sync](#Configure-Sync)
 - [Creating New User](#Creating-New-User)
   - [Windows (Powershell)](#Windows-Powershell)
   - [Linux (Terminal)](#Linux-Terminal)
@@ -247,9 +248,12 @@ Once the plugin is installed, activate it by launching Obsidian.md.
 
 ![LWWtF7E](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/7f8c1dd3-6150-4798-b724-a367bf0e2413)
 
-
 ![ioHy4jQ](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/61d154df-430d-4785-983c-633418607d12)
 
+
+<br /><br />
+
+### Configure Sync
 
 
 <br /><br /><br />
