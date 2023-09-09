@@ -311,6 +311,22 @@ You will then get one more confirmation that your vault is now synced.
 
 ![6znaxbj](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2dbe1e86-3b91-4cb4-a5da-fc354d13e40d)
 
+From this point on, you can adjust any of the Sync settings you wish to modify, which includes syncing things like images, videos, plugins, settings, and more. Whatever options you enable, will be included in the Sync job.
+
+Ensure `Sync Status` is set to `running`. You can enable / disable the sync's state by clicking the button to the right.
+
+![UkqH5w1](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/0c786122-3ac6-45e7-843a-2aa4cc8312da)
+
+You can confirm that your files are successfully syncing by clicking the `View` button to the right of `Sync Activity`.
+Once pressing the `View` button, a new dialog will appear and show you the status of your Sync job.
+
+```console
+2023-09-09 01:38 - Uploading file Test Folder/Subfolder/My File 1.md
+2023-09-09 01:38 - Upload complete Test Folder/Subfolder/My File 1.md
+2023-09-09 01:38 - Uploading file Test Folder/Subfolder/My File 2.md
+2023-09-09 01:38 - Upload complete Test Folder/Subfolder/My File 2.md
+2023-09-09 01:40 - Fully synced
+```
 
 
 <br /><br /><br />
