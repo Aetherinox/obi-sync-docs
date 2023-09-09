@@ -534,13 +534,13 @@ https://publish.domain.com/myvault/Testing Folder/Tags.md
 - `Testing Folder`: Folder name the note resides in
 - `Tags.md`: Note filename
 
-If you want to see an overview of the files you have uploaded to your publish server, you can simply go to the publish subdomain, add your vault name at the end, and nothing else.
+To see an overview of files you have uploaded to your publish server, go to your publish subdomain, and add your vault name at the end. Nothing else needs added.
 
 ```
 https://publish.domain.com/myvault
 ```
 
-On my demo publish server, visiting the URL above shows me a series of JSON and lists all the files I have uploaded from my Tutorial's vault
+In our example vault, visiting the URL above displays `JSON` and includes a list of all files uploaded from the test vault:
 
 ![uBIwPoS](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/c73e23cd-3a3e-46ca-8bf1-62bb948930d2)
 
