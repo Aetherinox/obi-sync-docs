@@ -42,7 +42,7 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Network Error Occured. Network Unavailable](#network-error-occured-network-unavailable)
   - [Error: No Matching Manifest linux/amd64](#error-no-matching-manifest-linuxamd64)
   - [Docker-compose.yml vs .Env File](#docker-composeyml-vs-env-file)
-  - [Can't Find .obsidian Folder or .Env File](#plugin-cant-find-obsidian-folder-or-env-file)
+  - [Can't Find .obsidian Folder or .Env File](#cant-find-obsidian-folder-or-env-file)
   - [Privacy & Security](#privacy--security)
 
 <br />
@@ -680,7 +680,7 @@ If using `Portainer` web manager for Docker, you can access the environment vari
 
 <br /><br />
 
-### Plugin: Can't Find `.obsidian` Folder or `.Env` File
+### Can't Find `.obsidian` Folder or `.Env` File
 The `.obsidian` plugin folder may be hidden. You can configure your operating system's File Explorer show hidden files or use a terminal. For IOS, you might need to plug it into a computer, go to `Documents on iPhone`, then go to `Obsidian/<your vault name>/.obsidian`.
 
 If you are using Linux and cannot locate the `.obsidian` folder or `.env` docker file, Linux by default hides all folders and files that start with a period. To view these files in your File Explorer, press the key combination `CTRL + H`. You may be asked for your account or sudo password.
