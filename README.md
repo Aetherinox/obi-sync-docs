@@ -539,7 +539,7 @@ If you provided the wrong domain name and need to change it, you must do the fol
 - Locate the project file `publish.db` and DELETE it completely.
 - Restart the docker container and Obsidian.md program
 
-Once back in Obsidian.md program, attempt to click `Publish Changes` ![Publish Changes Button](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e9cd7054-0a41-472f-accb-d9fa0426436d) button again.
+Once back in Obsidian.md program, click `Publish Changes` ![Publish Changes Button](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e9cd7054-0a41-472f-accb-d9fa0426436d) button again.
 
 You can also attempt to locate the root cause of the issue by pressing `CTRL + SHIFT + I` inside of Obsidian.md. Then on the right side, click `Network` and then re-open the `Publish Changes` interface again.
 
