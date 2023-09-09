@@ -224,3 +224,22 @@ A **failed** registration will return the following response:
 ```json
 {"error":"not sign up!"}
 ```
+
+<br /><br /><br />
+
+---
+
+## Build & Run
+
+<br />
+
+> [!NOTE]
+> This requires yout to install the Go interrupter on your machine.
+> You may download it [here](https://go.dev/doc/install).
+> 
+<br />
+
+To build and run Obsi-sync directly from the git repo, execute the following:
+- `git clone https://github.com/acheong08/obsidian-sync`
+- `cd obsidian-sync`
+- `go run cmd/obsidian-sync/main.go`
