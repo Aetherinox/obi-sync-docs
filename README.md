@@ -70,10 +70,23 @@ volumes:
 
 <br />
 
-Once you have created the above `docker-compose.yml` file, navigate to the folder where this file exists and execute the following:
+After creating the above `docker-compose.yml` file, `cd` to the folder where this new file is and execute the following:
 ```shell
 docker compose up -d
 ```
+
+To shut down the container:
+```shell
+docker compose down
+```
+
+To confirm it is running:
+```shell
+docker ps
+```
+![jddB3lb](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2954845f-20ba-43da-8873-69d520b697d2)
+
+
 
 <br /><br /><br />
 
