@@ -530,9 +530,9 @@ Open your web browser and go to the URL for your self-hosted publish server. In 
 https://publish.domain.com/myvault/Testing%20Folder/Tags.md
 ```
 
-`myvault` is the name I gave the vault from the examples provided above.
-`Testing Folder` is the name of the folder the note resided in.
-`Tags.md` is our note name.
+- `myvault`: Name given to example vault
+- `Testing Folder`: Folder name the note resides in
+- `Tags.md`: Note filename
 
 If you want to see an overview of the files you have uploaded to your publish server, you can simply go to the publish subdomain, add your vault name at the end, and nothing else.
 
