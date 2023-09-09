@@ -173,7 +173,7 @@ A description of each variable is provided below:
 | `MAX_STORAGE_GB` | The maximum storage per user in GB. | No | `10` |
 | `MAX_SITES_PER_USER` | The maximum number of sites per user. | No | `5` |
 
-<br />
+<br /><br />
 
 After creating the file(s) above depending on your selection, you need to `cd` to the folder where you created the file(s) and execute:
 ```shell
