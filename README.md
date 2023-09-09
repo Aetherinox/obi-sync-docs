@@ -5,7 +5,7 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
 
 - [Features](#Features)
 - [Installation](#Installation)
-  - Create DNS Records
+  - [Create DNS Records](#Create-DNS-Records)
   - Install with Docker-compose
   - Install with Docker
   - Nginx Configuration
