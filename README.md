@@ -279,6 +279,10 @@ Some users may be running [Portainer](https://www.portainer.io/), which allows y
 
 <br /><br />
 
+---
+
+<br /><br />
+
 ### What Files Are Created On Server?
 This project will store your vault data in the following files:
 ```
@@ -291,6 +295,10 @@ This project will store your vault data in the following files:
 
 <br /><br />
 
+---
+
+<br /><br />
+
 ### Error: User Not Signed Up
 This error typically occurs when you're creating a user with `cURL` and shows the following:
 ```json
@@ -299,6 +307,10 @@ This error typically occurs when you're creating a user with `cURL` and shows th
 <br />
 
 If you receive this error when creating your first API user, ensure the user did not previously exist. 
+
+<br /><br />
+
+---
 
 <br /><br />
 
