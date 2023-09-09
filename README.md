@@ -330,9 +330,10 @@ Once the plugin is installed, activate it by launching Obsidian.md.
 
 ### Configure Sync
 Before doing these steps, ensure that your obi-sync self-hosted server is running.
-Open your Obsidian.md Settings ![uJ5MSWk](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/f5695ae4-0730-496c-b182-3bf4836ba571) and on the left side, select `About`.
 
-You need to sign-in to your self-hosted server by clicking `Log In`:
+Open your Obsidian.md Settings ![uJ5MSWk](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/f5695ae4-0730-496c-b182-3bf4836ba571) and select `About`.
+
+You need to sign in and connect Obsidian.md to your self-hosted server by clicking `Log In`:
 
 ![fs9PioG](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/941f8b5a-485f-4f6b-bdd0-ad0e6ab092a5)
 
