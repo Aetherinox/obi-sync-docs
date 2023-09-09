@@ -394,7 +394,48 @@ Once pressing the `View` button, a new dialog will appear and show you the statu
 ### Configure Publish
 These instructions help guide you through setting up `Obsidian Publish`. This feature will allow you to view your Vault .md notes on your webserver.
 
+Open your Obsidian.md settings, and under `Options` on the left, select `Core Plugins`. In the middle of the screen, enable ![f8iiGTI](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e38ac70d-60ea-4cf7-939a-ab56d5302f11) `Publish`.
 
+![NvmH8hV](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/794d9820-1f45-4f9c-afbc-243fd3537260)
+
+Back on the main Obsidian interface, select the `Publish Changes` ![Publish Changes Button](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e9cd7054-0a41-472f-accb-d9fa0426436d) button in your Obsidian side / toolbar.
+
+In the new dialog, enter a `Site ID` in the textfield provided. This will become the `slug` name for your new vault.
+
+![nofm4EB](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/4254380c-331e-4a80-8299-3204fb098cc2)
+
+Once you have a name, click `Create`.
+
+You will then see a list of all your vault's associated files. Select the checkbox to the left of each folder you wish to upload to your self-hosted Publish server.
+
+![FiUou2Z](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/936fbb7f-4867-4b44-9e80-02b7221f3c62)
+
+Once you've selected the desired folders, click `Publish` in the bottom right.
+
+Yet another dialog will appear which confirms your uploaded vault documents.
+
+![sTxX4Ax](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/1a2501d8-338d-455e-8829-0ef2b9439494)
+
+Because we are hosting our own server, the link provided at the bottom of the dialog **will not work** since it goes to Obsidian's official publish server.
+
+Open your web browser and go to the URL for your self-hosted publish server. In my example files I uploaded, my link would be
+
+```
+https://publish.domain.com/myvault/Testing%20Folder/Tags.md
+```
+`myvault` is the name I gave the vault from the examples provided above, and the remaining part of the link is exactly how the .md file would be if I were browsing it on my local computer.
+
+If you want to see an overview of the files you have uploaded to your publish server, you can simply go to the publish subdomain, add your vault name at the end, and nothing else.
+
+```
+https://publish.domain.com/myvault
+```
+
+On my demo publish server, visiting the URL above shows me a series of JSON and lists all the files I have uploaded from my Tutorial's vault
+
+![uBIwPoS](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/c73e23cd-3a3e-46ca-8bf1-62bb948930d2)
+
+From this point, you can upload whatever files you wish to have published and play around with the settings.
 
 
 <br /><br /><br />
