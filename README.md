@@ -483,7 +483,7 @@ To build and run Obi-sync directly from the git repo, execute the following:
 ## Troubleshooting
 
 ### Where Are Files Stored?
-This depends on how you've configured obsid-sync to run. 
+This depends on how you've configured obsidian sync server to run. 
 If you installed this project using [Install with Docker-compose](#Docker-Compose-Option-1), and specified the environment variable `DATA_DIR`, then the files should exist in the same folder you specified the variable to use. By default, vault files are placed in the folder `obi-sync`.
 
 If you installed this project using [Install with Docker](#Docker-Option-2) or did not specify a variable for `DATA_DIR`, then the files are typically stored in `/var/lib/docker/*`
