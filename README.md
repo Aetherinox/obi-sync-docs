@@ -35,12 +35,13 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Configure Sync](#Configure-Sync)
   - [Configure Publish](#Configure-Publish)
 - [Build & Run](#Build--Run)
-- [Troubleshooting](#Troubleshooting)
+- [FAQ](#FAQ)
   - [Where Are Files Stored](#Where-Are-Files-Stored)
   - [What Files Are Created On Server?](#what-files-are-created-on-server)
   - [Error: User Not Signed Up](#error-user-not-signed-up)
   - [Network Error Occured. Network Unavailable](#network-error-occured-network-unavailable)
   - [Error: No Matching Manifest linux/amd64](#error-no-matching-manifest-linuxamd64)
+  - [Docker-compose.yml vs .Env File](#docker-composeyml-vs-env-file)
 
 <br />
 
@@ -570,7 +571,7 @@ To build and run Obi-sync directly from the git repo, execute the following:
 
 ---
 
-## Troubleshooting
+## FAQ
 
 ### Where Are Files Stored?
 This depends on how you've configured obsidian sync server to run. 
@@ -647,3 +648,22 @@ Anything listed in `red` is an error and needs to be corrected. Ensure that it i
 Make sure you are pulling the correct docker image.
 
 You can also visit the [Package Release](https://github.com/acheong08/obi-sync/pkgs/container/obi-sync) page, select `OS / Arch` tab, and copy the pull command listed below `linux/amd64`
+
+<br /><br />
+
+---
+
+<br /><br />
+
+### Docker-compose.yml vs .Env File
+In the section above titled [Install with Docker-compose](#Docker-Compose-Option-1), there are two ways to create your `docker-compose.yml` file.
+1. Single `docker-compose.yml` - See [DOCKER-COMPOSE.YML ONLY](#docker-composeyml-only)
+2. `docker-compose.yml` and `.env` file - See [DOCKER-COMPOSE.YML + .ENV](#docker-composeyml--env)
+
+#### 🟢 Single `docker-compose.yml` File
+This method involves creating a single `docker-compose.yml` file which will hold all of your settings for this project. 
+
+#### 🟢 `docker-compose.yml` and `.env` File
+This method requires you to create two files which both exist in the same folder. The benefit of this method is that your `SIGNUP_KEY` environment variable will not be leaked in your docker logs and is slightly better if you are worried about security.
+
+You can decide to use either one of the two options.
