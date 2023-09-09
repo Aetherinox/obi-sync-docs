@@ -206,6 +206,63 @@ Or restart nginx via docker if you run it through a container.
 
 <br /><br /><br />
 
+## Creating New User
+You must create a user that will be allowed to access your self-hosted server from within Obsidian.md.
+This can be done by opening Powershell in Windows, or Terminal in Linux and executing the following:
+
+<br />
+
+> [!NOTE]
+> `signup_key`: If you removed `signup_key` from your docker container's variables and don't want to require a signup key for registration, remove that line from the command below.
+> 
+> `example_password`: Pick any password you wish to use. This is the password you will use in the Obsidian.md program once you configure the plugin to connect to your self-hosted server.
+
+<br />
+
+#### Windows `Powershell`
+```powershell
+curl --request POST `
+  --url https://api.domain.com/user/signup `
+  --header 'Content-Type: application/json' `
+  --data '{
+	"email": "example@example.com",
+	"password": "example_password",
+	"name": "Example User",
+	"signup_key": "<SIGNUP_KEY>"
+}'
+```
+
+#### Linux `Terminal`
+```bash
+curl --request POST \
+  --url https://api.domain.com/user/signup \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"email": "example@example.com",
+	"password": "example_password",
+	"name": "Example User",
+	"signup_key": "<SIGNUP_KEY>"
+}'
+```
+
+<br />
+
+A **successful** registration will return the following response:
+```json
+{"email":"example@example.com","name":"Example User"}
+```
+
+<br />
+
+A **failed** registration will return the following response:
+> [!WARNING]
+> If you receive a **failure** from registration, make sure you're not trying to sign up the same user multiple times.
+```json
+{"error":"not sign up!"}
+```
+
+<br /><br /><br />
+
 ## Plugin Installation
 In order for your new self-hosted Publish and Sync server to function properly, you must install a plugin to your copy of Obsidian.md
 
@@ -331,63 +388,6 @@ Once pressing the `View` button, a new dialog will appear and show you the statu
 2023-09-09 01:40 - Fully synced
 ```
 
-
-<br /><br /><br />
-
-## Creating New User
-You must create a user that will be allowed to access your self-hosted server from within Obsidian.md.
-This can be done by opening Powershell in Windows, or Terminal in Linux and executing the following:
-
-<br />
-
-> [!NOTE]
-> `signup_key`: If you removed `signup_key` from your docker container's variables and don't want to require a signup key for registration, remove that line from the command below.
-> 
-> `example_password`: Pick any password you wish to use. This is the password you will use in the Obsidian.md program once you configure the plugin to connect to your self-hosted server.
-
-<br />
-
-#### Windows `Powershell`
-```powershell
-curl --request POST `
-  --url https://api.domain.com/user/signup `
-  --header 'Content-Type: application/json' `
-  --data '{
-	"email": "example@example.com",
-	"password": "example_password",
-	"name": "Example User",
-	"signup_key": "<SIGNUP_KEY>"
-}'
-```
-
-#### Linux `Terminal`
-```bash
-curl --request POST \
-  --url https://api.domain.com/user/signup \
-  --header 'Content-Type: application/json' \
-  --data '{
-	"email": "example@example.com",
-	"password": "example_password",
-	"name": "Example User",
-	"signup_key": "<SIGNUP_KEY>"
-}'
-```
-
-<br />
-
-A **successful** registration will return the following response:
-```json
-{"email":"example@example.com","name":"Example User"}
-```
-
-<br />
-
-A **failed** registration will return the following response:
-> [!WARNING]
-> If you receive a **failure** from registration, make sure you're not trying to sign up the same user multiple times.
-```json
-{"error":"not sign up!"}
-```
 
 <br /><br /><br />
 
