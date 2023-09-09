@@ -18,6 +18,7 @@ You will first need to configure the self-hosted server which will be responsibl
 - [Plugin Installation](#Plugin-Installation)
   - [Install -> WGET](#install-with-wget)
   - [Install -> Manually](#install-manually)
+  - [Enable Plugin](#Enable-Plugin)
 - [Creating New User](#Creating-New-User)
   - [Windows (Powershell)](#Windows-Powershell)
   - [Linux (Terminal)](#Linux-Terminal)
@@ -230,6 +231,20 @@ To manually get the latest copy of the unofficial Obi-Sync Plugin, [download her
 - Inside the `custom-sync-plugin` folder, install the plugin files:
   - 📄 `main.js`
   - 📄 `manifest.json`
+
+<br /><br />
+
+### Enable Plugin
+Once the plugin is installed, activate it by launching Obsidian.md. 
+- Open `Obsidian Settings` ![uJ5MSWk](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/f5695ae4-0730-496c-b182-3bf4836ba571)
+- On left menu, click `Community Plugins`
+- Scroll down to `Custom Native Sync` and enable ![f8iiGTI](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e38ac70d-60ea-4cf7-939a-ab56d5302f11)
+- Configure the `API URL` in the Plugin settings after setting up your sync server
+  - By default, it is `https://api.domain.com`
+- Go to the `Core Plugins` section of Obsidian
+- Locate the core plugin `Sync` and enable ![f8iiGTI](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/e38ac70d-60ea-4cf7-939a-ab56d5302f11)
+
+
 
 <br /><br /><br />
 
