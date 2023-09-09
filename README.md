@@ -12,13 +12,15 @@ This is an unofficial Obsidian Sync library which allows you to host your own se
 - Vault sharing
 - [Publish (markdown only. no rendering yet)](https://github.com/acheong08/obi-sync/wiki/Obsidian-Publish)
 
----
+
+
+<br /><br /><br />
 
 ## Installation
-Follow the instructions below for setting up Obsi-Sync with your Obsidian.md program.
+Follow the instructions below to set up Obsi-Sync with your [Obsidian.md](https://obsidian.md/) program.
 
 ### DNS Records
-Access your Domain or Cloudflare control panel and create new records for your subdomains.
+Access your Domain or Cloudflare control panel and create new records for two new subdomains.
 
 ![NNOxQSI](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2cf070f5-4ee5-4733-9e6e-db2770fb4599)
 
@@ -27,14 +29,18 @@ Access your Domain or Cloudflare control panel and create new records for your s
 | api.domain.com | Will be used for all API communication between your self-hosted solution and the Obsidian app. |
 | publish.domain.com | Handles Obsidian Publish documents that can be viewed online |
 
-### Docker
-To host a [Docker](https://docker.com) container running Obsi-Sync, create a new `docker-compose.yml` with the following code inside:
+
+
+<br /><br /><br />
+
+### Docker-Compose (Method 1)
+To use `docker-compose` for Obsi-Sync, create a new `docker-compose.yml` with the following code inside:
 ```yml
 version: '3.8'
 
 services:
   obsidian_sync:
-    image: ghcr.io/acheong08/obi-sync:v0.1.4@sha256:e2877d09c33201c7e69297a4614c4cafebd3d8f23a20707d4bb1c2a55dbd3111
+    image: ghcr.io/acheong08/obi-sync:v0.1.4
     container_name: obsidian_sync
     restart: always
     ports:
@@ -62,9 +68,23 @@ volumes:
 | `MAX_STORAGE_GB` | The maximum storage per user in GB. | No | `10` |
 | `MAX_SITES_PER_USER` | The maximum number of sites per user. | No | `5` |
 
+<br />
+
+Once you have created the above `docker-compose.yml` file, navigate to the folder where this file exists and execute the following:
+```shell
+docker compose up -d
+```
+
+<br /><br /><br />
+
 ---
 
-### Creating New User
+### Docker (Method 2)
+To install Obsi-Sync using the docker `pull` command, 
+
+<br /><br /><br />
+
+## Creating New User
 Once you have configured Docker + Nginx or your alternative solution, you must create a user that will be allowed to access your self-hosted server from within Obsidian.md.
 This can be done by opening Powershell in Windows, or Terminal in Linux and executing the following:
 
