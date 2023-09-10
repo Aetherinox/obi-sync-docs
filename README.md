@@ -59,6 +59,9 @@ You will first need to configure the self-hosted server which will be responsibl
 - Vault sharing
 - [Publish (markdown only. no rendering yet)](https://github.com/acheong08/obi-sync/wiki/dian-Publish)
 
+<br />
+
+[^Top](#Index)
 
 
 <br /><br /><br />
@@ -377,6 +380,10 @@ A **failed** registration will return the following response:
 {"error":"not sign up!"}
 ```
 
+<br />
+
+[^Top](#Index)
+
 <br /><br /><br />
 
 ## Plugin Installation
@@ -576,6 +583,9 @@ In our example vault, visiting the URL above displays `JSON` and includes a list
 
 From this point, you can upload whatever files you wish to have published and play around with the settings.
 
+<br />
+
+[^Top](#Index)
 
 <br /><br /><br />
 
