@@ -146,7 +146,7 @@ volumes:
 
 <br />
 
-<sub>[Continue With Installation](#Variable-List)</sub>
+<sub>[🔹Continue With Installation](#Variable-List)</sub>
 
 <br /><br />
 
@@ -198,7 +198,7 @@ USER_MAX_SITES=5
 
 <br />
 
-<sub>[Continue With Installation](#Variable-List)</sub>
+<sub>[🔹Continue With Installation](#Variable-List)</sub>
 
 <br />
 
