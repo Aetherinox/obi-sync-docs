@@ -146,8 +146,8 @@ volumes:
 
 ##### 🟢 DOCKER-COMPOSE.YML + .ENV
 To use `docker-compose.yml` and `.env` file option; create the following two files in the same folder:
-- `docker-compose.yml`
-- `.env`
+- [docker-compose.yml](#-docker-composeyml)
+- [.env](#-env)
 
 Inside each file, paste the following:
 
