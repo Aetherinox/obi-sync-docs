@@ -78,7 +78,7 @@ Access your Domain or Cloudflare control panel and create new records for two ne
 | `api.domain.com` | Will be used for all API communication between your self-hosted solution and the Obsidian app. <br /><br />This URL needs to be plugged into your `docker-compose.yml`, and set up in the settings of the [Unofficial obi-sync plugin](https://github.com/acheong08/rev-obsidian-sync-plugin) as the `Obsidian Sync URL` |
 | `publish.domain.com` | Handles Obsidian Publish documents that can be viewed online. <br /><br />Configure your self-hosted server and `Obsidian Plugin`; then upload your vault files using `Obsidian Publish` and view your uploaded files at: <br />`https://publish.domain.com/vaultname/Path/To/File.md` |
 
-
+If you want Cloudflare to handle the SSL certificate, ensure you set each record's `Proxy Status` to ![cloudflare-enabled](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/34e80e5f-6751-4741-a063-683cf51948a9) **Proxied**
 
 <br /><br /><br />
 
