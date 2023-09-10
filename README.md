@@ -103,8 +103,8 @@ If using this option, you must decide which setup you would like to use.
 
 Using the `two file` option is slightly more secure in regards to your `SIGNUP_KEY` being exposed to logs. 
 
-- If you are not concerned about security, use [DOCKER-COMPOSE.YML ONLY](#docker-composeyml-only) option.
-- If you want the extra security, use [DOCKER-COMPOSE.YML + .ENV](#docker-composeyml--env) option.
+- If you are not concerned about security, use [DOCKER-COMPOSE.YML ONLY](#-docker-composeyml-only) option.
+- If you want the extra security, use [DOCKER-COMPOSE.YML + .ENV](#-docker-composeyml--env) option.
 
 <br /><br />
 
@@ -678,9 +678,9 @@ You can also visit the [Package Release](https://github.com/acheong08/obi-sync/p
 ### Docker-compose.yml vs .Env File
 In the section above titled [Install with Docker-compose](#Docker-Compose-Option-1), there are two ways to install obi-sync using `docker-compose`.
 1. Single `docker-compose.yml` file
-   - See [DOCKER-COMPOSE.YML ONLY](#docker-composeyml-only)
+   - See [DOCKER-COMPOSE.YML ONLY](#-docker-composeyml-only)
 3. `docker-compose.yml` and `.env` file
-   - See [DOCKER-COMPOSE.YML + .ENV](#docker-composeyml--env)
+   - See [DOCKER-COMPOSE.YML + .ENV](#-docker-composeyml--env)
 
 #### 🟢 Single `docker-compose.yml` File
 This method involves creating a single `docker-compose.yml` file which will hold all of your settings for this project. 
