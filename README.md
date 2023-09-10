@@ -208,7 +208,7 @@ USER_MAX_SITES=5
 
 #### Variable List
 
-Now that you have created `docker-compose.yml` / `.env` file(s), change the variables in the file to match your domain `DOMAIN_NAME`, registration signup key `SIGNUP_KEY`, etc. 
+After creating `docker-compose.yml` / `.env` file(s), edit the variables to match your domain `DOMAIN_NAME`, registration signup key `SIGNUP_KEY`, etc. 
 <br /><br />
 A description of each variable is provided below:
 
