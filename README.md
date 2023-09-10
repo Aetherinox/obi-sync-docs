@@ -21,7 +21,7 @@ You will first need to configure the self-hosted server which will be responsibl
 
 - [Features](#Features)
 - [Server Installation](#Server-Installation)
-  - [Create DNS Records](#Create-DNS-Records)
+  - [Create DNS Records / SSL](#Create-DNS-Records-SSL)
   - [Install with Docker-compose](#Docker-Compose-Option-1)
   - [Install with Docker](#Docker-Option-2)
   - [Nginx Configuration](#Nginx-Configuration)
@@ -66,7 +66,9 @@ You will first need to configure the self-hosted server which will be responsibl
 ## Server Installation
 Follow the instructions below to set up obsidian sync with your [Obsidian.md](https://obsidian.md/) program.
 
-### Create DNS Records
+### Create DNS Records / SSL
+If you are wanting to host your sync server outside of `localhost`, you can use [Cloudflare](https://cloudflare.com/) to take care of your SSL certificate needs. If you do not want to use Cloudflare but still require an SSL certificate, you can skip the instructions below and utilize [Certbot](https://certbot.eff.org/).
+
 Access your Domain or Cloudflare control panel and create new records for two new subdomains.
 
 ![NNOxQSI](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2cf070f5-4ee5-4733-9e6e-db2770fb4599)
