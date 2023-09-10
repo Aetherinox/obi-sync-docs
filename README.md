@@ -609,6 +609,10 @@ To build and run Obi-sync directly from the git repo, execute the following:
 - `cd obsidian-sync`
 - `go run cmd/obsidian-sync/main.go`
 
+<br />
+
+<sub>[^Top](#Index)</sub>
+
 <br /><br /><br />
 
 ---
@@ -737,3 +741,9 @@ The `.obsidian` plugin folder and docker `.env` file may be hidden. You can conf
 
 ### Privacy & Security
 The plugin and self-hosted server are dead simple. No data is collected. You can even run your sync server on the local network without access to the internet. All vault data is stored behind an encrypted password and inside a database file.
+
+---
+
+<br /><br />
+
+<sub>[^Top](#Index)</sub>
