@@ -391,7 +391,11 @@ A **failed** registration will return the following response:
 
 <sub>[^Top](#Index)</sub>
 
-<br /><br /><br />
+<br />
+
+---
+
+<br />
 
 ## Plugin Installation
 In order for your new self-hosted Publish and Sync server to function properly, you must install a plugin to your copy of Obsidian.md
