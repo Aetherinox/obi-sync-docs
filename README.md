@@ -96,10 +96,12 @@ If you want Cloudflare to handle the SSL certificate, set each record's `Proxy S
 
 ### Docker-Compose (Option 1)
 If using this option, you must decide which setup you would like to use. 
-<br /><br />
-You can either create a single `docker-compose.yml` file and keep all settings inside that one file, OR you can use the two file method which requires you to create a `docker-compose.yml` file, and an `.env` environment variable file.
+- One File: `docker-compose.yml`
+- Two Fles: `docker-compose.yml` and `.env`
 
-Using the method with the `.env` environment variable file is slightly more secure in regards to your `SIGNUP_KEY` being exposed to logs. 
+<br /><br />
+
+Using the `two file` option is slightly more secure in regards to your `SIGNUP_KEY` being exposed to logs. 
 
 - If you are not concerned about security, use [DOCKER-COMPOSE.YML ONLY](#docker-composeyml-only) option.
 - If you want the extra security, use [DOCKER-COMPOSE.YML + .ENV](#docker-composeyml--env) option.
