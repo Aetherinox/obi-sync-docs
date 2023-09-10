@@ -112,7 +112,7 @@ Using the `two file` option is slightly more secure in regards to your `SIGNUP_K
 
 <br /><br />
 
-##### DOCKER-COMPOSE.YML ONLY
+##### 🟢 DOCKER-COMPOSE.YML ONLY
 To use `docker-compose.yml` only for obi-sync, create a new `docker-compose.yml` with the following code inside:
 ```yml
 version: '3.8'
@@ -144,7 +144,7 @@ volumes:
 
 <br /><br />
 
-##### DOCKER-COMPOSE.YML + .ENV
+##### 🟢 DOCKER-COMPOSE.YML + .ENV
 To use `docker-compose.yml` and `.env` file option; create the following two files in the same folder:
 - `docker-compose.yml`
 - `.env`
