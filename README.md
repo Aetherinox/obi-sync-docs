@@ -355,9 +355,11 @@ This can be done by opening Powershell in Windows, or Terminal in Linux and exec
 > [!NOTE]
 > `email`: This is the email address you will use in Obsidian's `About` tab to sign into your self-hosted server.
 > 
-> `signup_key`: If you removed `signup_key` from your docker container's variables and don't want to require a signup key for registration, remove that line from the command below.
-> 
 > `password`: Pick any password you wish to use. This is the password you will use in the Obsidian.md program once you configure the plugin to connect to your self-hosted server.
+>
+> `name`: Can be anything, not super important.
+>
+> `signup_key`: If you removed `signup_key` from your docker container's variables and don't want to require a signup key for registration, remove that line from the command below.
 
 <br />
 
