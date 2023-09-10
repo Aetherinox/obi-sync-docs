@@ -145,11 +145,11 @@ volumes:
 <br /><br />
 
 ##### 🟢 DOCKER-COMPOSE.YML + .ENV
-Create the following two files in the same folder:
+Create the following two files in the same folder, and then paste the corresponding code provided below:
 - [docker-compose.yml](#-docker-composeyml)
 - [.env](#-env)
 
-Inside each file, paste the following:
+<br />
 
 #### 📄 docker-compose.yml
 ```yml
