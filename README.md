@@ -66,6 +66,8 @@ You will first need to configure the self-hosted server which will be responsibl
 ## Server Installation
 Follow the instructions below to set up obsidian sync with your [Obsidian.md](https://obsidian.md/) program.
 
+<br /><br />
+
 ### Create DNS Records / SSL
 If you are wanting to host your sync server outside of `localhost`, you can use [Cloudflare](https://cloudflare.com/) to take care of your SSL certificate needs. If you do not want to use Cloudflare but still require an SSL certificate, you can skip the instructions below and utilize [Certbot](https://certbot.eff.org/).
 
