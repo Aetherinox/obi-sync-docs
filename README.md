@@ -113,7 +113,7 @@ Using the `two file` option is slightly more secure in regards to your `SIGNUP_K
 <br /><br />
 
 ##### 🟢 DOCKER-COMPOSE.YML ONLY
-To use `docker-compose.yml` only for obi-sync, create a new `docker-compose.yml` with the following code inside:
+Create a new file named `docker-compose.yml`, and then paste the corresponding code provided below:
 ```yml
 version: '3.8'
 
