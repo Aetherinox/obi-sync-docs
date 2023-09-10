@@ -194,10 +194,6 @@ USER_MAX_SITES=5
 
 <br /><br />
 
----
-
-<br /><br />
-
 A description of each variable is provided below:
 
 <br />
