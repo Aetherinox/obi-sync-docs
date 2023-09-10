@@ -227,7 +227,7 @@ A description of each variable is provided below:
 
 #### Start/Stop Docker
 
-After creating the file(s) above depending on your selection, you need to `cd` to the folder where you created the file(s) and execute:
+After you finish configuring your docker's variables, you need to `cd` to the folder where you created the file(s) and execute:
 ```shell
 docker compose up -d
 ```
