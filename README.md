@@ -21,7 +21,7 @@ You will first need to configure the self-hosted server which will be responsibl
 
 - [Features](#Features)
 - [Server Installation](#Server-Installation)
-  - [Create DNS Records / SSL](#Create-DNS-Records-SSL)
+  - [Create DNS Records / SSL](#Create-DNS-Records--SSL)
   - [Install with Docker-compose](#Docker-Compose-Option-1)
   - [Install with Docker](#Docker-Option-2)
   - [Nginx Configuration](#Nginx-Configuration)
