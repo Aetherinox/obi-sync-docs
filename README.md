@@ -86,7 +86,7 @@ Each subdomain plays the following roles:
 | Subdomain | Purpose |
 | --- | --- |
 | `api.domain.com` | <br />Used for `Obsidian Sync`. <br /><br />This URL needs to be plugged into your `docker-compose.yml`, and set up in the settings of the [Unofficial obi-sync plugin](https://github.com/acheong08/rev-obsidian-sync-plugin) as the `Obsidian Sync URL`<br /><br /> |
-| `publish.domain.com` | <br />Used for `Obsidian Publish`. <br /><br />Configure your self-hosted server, enable the `Obsidian Plugin`; then upload your vault files using `Obsidian Publish` and view your uploaded files at: <br />`https://publish.domain.com/vaultname/Path/To/File.md`<br /><br /> |
+| `publish.domain.com` | <br />Used for `Obsidian Publish`. <br /><br />Configure your self-hosted server, enable the `Obsidian Plugin`; then upload your vault files using `Obsidian Publish`.<br /><br />View your uploaded files at: <br />`https://publish.domain.com/vaultname/Path/To/File.md`<br /><br /> |
 
 <br />
 
