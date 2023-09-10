@@ -359,7 +359,8 @@ This can be done by opening Powershell in Windows, or Terminal in Linux and exec
 >
 > `name`: Can be anything, not super important.
 >
-> `signup_key`: If you removed `signup_key` from your docker container's variables and don't want to require a signup key for registration, remove that line from the command below.
+> `signup_key`: This is the variable you provided in the `docker-compose.yml` or `.env` file.
+> If you removed `signup_key` from your docker container's variables and don't want to require a signup key for registration, remove that line from the command below.
 
 <br />
 
