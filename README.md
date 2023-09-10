@@ -64,7 +64,7 @@ You will first need to configure the self-hosted server which will be responsibl
 
 <br />
 
-<sub>🔝 [Top](#Index)</sub>
+<sub>[🔝 Top](#Index)</sub>
 
 
 <br /><br /><br />
