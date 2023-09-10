@@ -217,7 +217,7 @@ To shut down the container:
 docker compose down
 ```
 
-To confirm it is running:
+To confirm container is running:
 ```shell
 docker ps
 ```
