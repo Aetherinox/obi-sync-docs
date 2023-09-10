@@ -382,6 +382,8 @@ A **failed** registration will return the following response:
 ## Plugin Installation
 In order for your new self-hosted Publish and Sync server to function properly, you must install a plugin to your copy of Obsidian.md
 
+<br /><br />
+
 ### Install with WGET
 Navigate to your vault's `.obsidian` folder:
 
