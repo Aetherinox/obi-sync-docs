@@ -61,7 +61,7 @@ You will first need to configure the self-hosted server which will be responsibl
 
 <br />
 
-<p align="right">[^Top](#Index)</p>
+<sub>[^Top](#Index)</sub>
 
 
 <br /><br /><br />
@@ -382,7 +382,7 @@ A **failed** registration will return the following response:
 
 <br />
 
-[^Top](#Index)
+<sub>[^Top](#Index)</sub>
 
 <br /><br /><br />
 
@@ -585,7 +585,7 @@ From this point, you can upload whatever files you wish to have published and pl
 
 <br />
 
-[^Top](#Index)
+<sub>[^Top](#Index)</sub>
 
 <br /><br /><br />
 
