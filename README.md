@@ -151,7 +151,7 @@ To use `docker-compose.yml` and `.env` file option; create the following two fil
 
 Inside each file, paste the following:
 
-#### docker-compose.yml
+#### 📄 docker-compose.yml
 ```yml
 
 version: '3.8'
@@ -176,7 +176,7 @@ volumes:
   obi-sync:
 ```
 
-#### .env
+#### 📄 .env
 ```env
 DOMAIN='api.domain.com'
 ADDR_HTTP='0.0.0.0:3000'
