@@ -221,7 +221,9 @@ To confirm it is running:
 ```shell
 docker ps
 ```
-![jddB3lb](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/2954845f-20ba-43da-8873-69d520b697d2)
+
+![9XdXESs](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/81f54b21-b4e5-4541-afb7-212cd227053c)
+
 
 <br /><br /><br />
 
