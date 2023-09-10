@@ -144,6 +144,10 @@ volumes:
   obi-sync:
 ```
 
+<br />
+
+<sub>[Continue With Installation](#Variable-List)</sub>
+
 <br /><br />
 
 ---
@@ -192,7 +196,17 @@ USER_MAX_STORAGE=10
 USER_MAX_SITES=5
 ```
 
-<br /><br />
+<br />
+
+<sub>[Continue With Installation](#Variable-List)</sub>
+
+<br />
+
+---
+
+<br />
+
+#### Variable List
 
 A description of each variable is provided below:
 
@@ -208,6 +222,8 @@ A description of each variable is provided below:
 | `MAX_SITES_PER_USER` | The maximum number of sites per user. | No | `5` |
 
 <br /><br />
+
+#### Start/Stop Docker
 
 After creating the file(s) above depending on your selection, you need to `cd` to the folder where you created the file(s) and execute:
 ```shell
