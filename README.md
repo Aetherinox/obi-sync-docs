@@ -246,9 +246,11 @@ docker pull ghcr.io/acheong08/obi-sync:latest
 For a full list of pull commands based on your operating system, view [Package Release](https://github.com/acheong08/obi-sync/pkgs/container/obi-sync).
 
 
-<br /><br /><br />
+<br /><br />
 
 ---
+
+<br /><br />
 
 ### Nginx Configuration
 You must configure nginx to handle your new subdomains by adding a few entries to your nginx config file. If you wish to add this to your current running nginx webserver, you can paste it somewhere in `\etc\nginx\sites-enabled\default`.
@@ -324,9 +326,11 @@ sudo systemctl restart nginx
 ```
 Or restart nginx via docker if you run it through a container.
 
-<br /><br /><br />
+<br /><br />
 
 ---
+
+<br /><br />
 
 ### Creating New User
 You must create a user that will be allowed to access your self-hosted server from within Obsidian.md.
@@ -590,9 +594,12 @@ From this point, you can upload whatever files you wish to have published and pl
 
 <sub>[^Top](#Index)</sub>
 
-<br /><br /><br />
+<br /><br />
 
 ---
+
+<br /><br />
+
 
 ## Build & Run
 
@@ -616,6 +623,8 @@ To build and run Obi-sync directly from the git repo, execute the following:
 <br /><br /><br />
 
 ---
+
+<br /><br />
 
 ## FAQ
 
