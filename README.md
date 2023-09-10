@@ -61,7 +61,7 @@ You will first need to configure the self-hosted server which will be responsibl
 
 <br />
 
-[^Top](#Index)
+<p align="right">[^Top](#Index)</p>
 
 
 <br /><br /><br />
