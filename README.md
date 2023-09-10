@@ -26,8 +26,8 @@ You will first need to configure the self-hosted server which will be responsibl
   - [Install with Docker](#Docker-Option-2)
   - [Nginx Configuration](#Nginx-Configuration)
   - [Creating New User](#Creating-New-User)
-    - [Windows (Powershell)](#Windows-Powershell)
-    - [Linux (Terminal)](#Linux-Terminal)
+    - [Windows (Powershell)](#-Windows-Powershell)
+    - [Linux (Terminal)](#-Linux-Terminal)
 - [Plugin Installation](#Plugin-Installation)
   - [Install -> WGET](#install-with-wget)
   - [Install -> Manually](#install-manually)
@@ -335,7 +335,7 @@ This can be done by opening Powershell in Windows, or Terminal in Linux and exec
 
 <br />
 
-#### Windows `Powershell`
+#### ⚙️ Windows `Powershell`
 ```powershell
 curl --request POST `
   --url https://api.domain.com/user/signup `
@@ -348,7 +348,7 @@ curl --request POST `
 }'
 ```
 
-#### Linux `Terminal`
+#### ⚙️ Linux `Terminal`
 ```bash
 curl --request POST \
   --url https://api.domain.com/user/signup \
