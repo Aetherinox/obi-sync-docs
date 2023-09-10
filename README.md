@@ -383,10 +383,15 @@ A **failed** registration will return the following response:
 In order for your new self-hosted Publish and Sync server to function properly, you must install a plugin to your copy of Obsidian.md
 
 ### Install with WGET
-Create a new folder for the plugin and enter the folder:
+Navigate to your vault's `.obsidian` folder:
 
 ```shell
 cd /path/to/vault/.obsidian
+```
+
+Create a new folder for the plugin and enter the folder:
+
+```shell
 mkdir -p plugins/custom-sync-plugin && cd plugins/custom-sync-plugin
 ```
 
