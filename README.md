@@ -403,7 +403,7 @@ A **failed** registration will return the following response:
 
 <br />
 
-<sub>🔝 [Top](#Index)</sub>
+<sub>[🔝 Top](#Index)</sub>
 
 <br />
 
@@ -610,7 +610,7 @@ From this point, you can upload whatever files you wish to have published and pl
 
 <br />
 
-<sub>🔝 [Top](#Index)</sub>
+<sub>[🔝 Top](#Index)</sub>
 
 <br />
 
@@ -636,7 +636,7 @@ To build and run Obi-sync directly from the git repo, execute the following:
 
 <br />
 
-<sub>🔝 [Top](#Index)</sub>
+<sub>[🔝 Top](#Index)</sub>
 
 <br /><br /><br />
 
@@ -773,4 +773,4 @@ The plugin and self-hosted server are dead simple. No data is collected. You can
 
 ---
 
-<sub>🔝 [Top](#Index)</sub>
+<sub>[🔝 Top](#Index)</sub>
