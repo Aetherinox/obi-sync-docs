@@ -88,7 +88,7 @@ Each subdomain plays the following roles:
 
 <br />
 
-If you want Cloudflare to handle the SSL certificate, ensure you set each record's `Proxy Status` to ![cloudflare-enabled](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/34e80e5f-6751-4741-a063-683cf51948a9) **Proxied**
+If you want Cloudflare to handle the SSL certificate, set each record's `Proxy Status` to ![cloudflare-enabled](https://github.com/Aetherinox/obi-sync-docs/assets/118329232/34e80e5f-6751-4741-a063-683cf51948a9) **Proxied**
 
 <br /><br /><br />
 
