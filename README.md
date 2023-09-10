@@ -228,13 +228,15 @@ docker ps
 ---
 
 ### Docker (Option 2)
-To install Obi-Sync using the docker `pull` command, view the [Package Release](https://github.com/acheong08/obi-sync/pkgs/container/obi-sync) page and copy the command for the OS you are running.
-
-The default pull command is
+To install obi-sync using docker `pull`, you can run the default command below:
 
 ```shell
 docker pull ghcr.io/acheong08/obi-sync:latest
 ```
+<br />
+
+For a full list of pull commands based on your operating system, view [Package Release](https://github.com/acheong08/obi-sync/pkgs/container/obi-sync).
+
 
 <br /><br /><br />
 
